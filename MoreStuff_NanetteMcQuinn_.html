@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	
+</head>
+	
+	<body>
+<header>
+	<h5>Nanette McQuinn-no nicknames needed. </h5>
+	</header>
+	<!--Grahphic or logo  -->
+	
+	<img src="nmlogo.png" alt="LOGO">
+	
+	<!-- Links to two outside pages top or left-->
+	<a href="https://www.bensound.com/">Royalty Free Music by BENSOUND</a>
+	<a href="https://unsplash.com/">Unsplash -Beautiful Free Photos</a>
+		
+		
+		
+	<hr>
+	<!-- image map-->
+		<img src="Beach.jpg" width="145" height="126" alt="Beach" usemap="#beachmap">
+
+<map name="beachmap">
+  <area shape="rect" coords="0,0,145,63" href="http://www.reynolds.edu/" alt="Reynolds Community College">
+  <area shape="rect" coords="0,63,145,126 " href="http://www.vccs.edu/" alt="Virginia Coummunity College System">
+ 
+</map>
+		
+	<hr>
+	
+		
+	<!--table-->
+	<section>
+	 <table class="Quotes">
+		 <thead>
+			 <th>Author</th>
+			 <th>Famous Quote</th>
+			 <th> From</th>
+		 </thead>
+           <tr>
+			  <td>William Crawford</td>
+			  <td>"Being a student is easy. Learning requires actual work"</td>
+			  <td>www.dashe.com/blog/motivation/inspiring-learning-quotes</td>
+		 </tr>
+		 		  <tr>
+			  <td>Samuel Johnson</td>
+			  <td>"Curiosity is one of the permanent and certain characteristics of a vigourous intellect."</td>
+			  <td>The Rambler</td>
+		 </tr>
+		  <tr>
+			  <td>Josh Waitzkin</td>
+			  <td>"The key to pursuing excellence is to embrace an organic, long-term learning process and not to live in a shell of static, safe mediocrity. Ususally, growth comes at the exspense of previous comfort or safety."</td>
+			  <td>The Art of Learning: A Journey in Pursuit of Excellence</td>
+		 </tr>
+     </table>
+      </section>
+
+	<!--form-->
+	   <section>
+      <h1>Registration Form</h1>
+		   <p>Will you use Adobe Dreamweaver in the Future?</p>
+      <p>Required Item (*)</p>
+       <form action="http://www.example.com/cg/regiser" method="post">
+        <!--title-->
+        <label for="title">Title</label>
+        <input type="text" name="title" id="titleBox" list="titleList">
+        <datalist id="titleList">
+          <option value="Mr."></option>
+         <option value="Mrs."></option>
+         <option value="Ms."></option>
+	 	 <option value="Miss."></option>
+          <option value="Dr."></option>
+        
+          </datalist>
+        
+       <!--firstname-->
+          <label for="firstName">First Name*</label>
+        <input type="text" name="firstName" id="fnBox" required>
+        
+        <!--lastName-->
+         <label for="lastName">Last Name*</label>
+         <input type="text" name="lastName" id="lnBox" required>
+        
+               
+        <!--email-->
+        <label for="email">E-mail*</label>
+       <input type="email" name="email" id="mailBox" required>
+		   
+        <!-- Phone Number -->
+            <label for="phoneNumber">Phone Number*</label>
+           <input name="phoneNumber" id="phoneNumber" type="tel" required placeholder="(nnn) nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"/>
+              
+                
+        <!--Text field for comments-->
+		   <label for="comments">Comments*</label>
+         <textarea name="comments" id="addBox"></textarea>
+
+		   
+		   
+		<!--Check Box Field-->  
+		  <p>I live in....</p> 
+		   <input type="checkbox" name="place" value="Continent"> North America<br>
+		<input type="checkbox" name="place" value="Country"> United States<br>
+  		<input type="checkbox" name="place" value="State" checked> Virginia<br>
+		   
+		   
+		<!--Radio Button Field--> 
+		  <p>I like Adobe Dreamweaver</p>   
+		   <input type="radio" name="question" value="yes"> Yes<br>
+<input type="radio" name="question" value="no">No<br>
+		   
+		<!--Password Field--> 
+		   <p>Password</p> 
+		<input type="password" name="pwd">   
+		   
+		   
+		 <!--Pop UP Menu-->
+		   <div>
+		     <p>I will use Adobe Dreamweaver mainly for:</p>
+		   <select>
+  <option value="play">Play</option>
+  <option value="employment">Employment</option>
+  <option value="personal">Personal</option>
+  <option value="other">Other</option>
+</select>
+		   </div>
+		   <!--List Box Filed--> 
+		   <div>
+			   <p> Things I know how to do with Adobe and HTML:</p>
+		   <select name="skills" size="4" multiple>
+  <option value="insert">Insert images on webpage</option>
+  <option value="links">Add links, like email or links to other web pages</option>
+  <option value="lists">Use unordered lists</option>
+  <option value="multimedia">Add sound and video</option>
+<option	value="form">Add a form</option>
+<option	value="css">Use CSS</option>
+<option	value="all">Use image maps</option>
+<option	value="style">Style text</option>
+			   <option	value="all"> Create basic website with all of the above</option>
+</select>
+		   </div>
+		   <!--button-->
+        <p><input type="submit" name="submit" value="Submit"><input type="reset" name="reset" value="Reset"></p>
+     </form>
+   </section>
+
+ <!--video clip--> 		
+		   
+        <video width="320" height="240" controls>
+  <source src="Pexels Videos 2833.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+		<hr>
+		<!--Course feelings paragraph-->
+		<p>ITD 110 Web Page design is a great introductory course for anyone interested in Web Development basics. After completing this course I have a better understanding and working knowledge of web site designs, construction and management using HTML.  </p>
+		
+		<p> <a href="NMcQuinnWebDeveloperIntern.pdf"></a>Link to PDF</p>
+		
+		
+		
+		
+		<!--add additional ish-->
+		
+	<a href="#top">go to the top</a>
+
+</body>
+</html>
